@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="#FFDDDD"
+    tools:context=".SaveInternalMyDir">
+
+    <EditText
+        android:id="@+id/etDirMy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_margin="15dp"
+        android:background="#FFFFFF"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:inputType="textPersonName"
+        android:hint="@string/dirname"/>
+
+    <EditText
+        android:id="@+id/etFnameMy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_margin="15dp"
+        android:background="#FFFFFF"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:inputType="textPersonName"
+        android:hint="@string/filename"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:background="#FFFFFF"
+        android:padding="10dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="Text for file" />
+
+    <EditText
+        android:id="@+id/etTextMy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="fill_horizontal"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:layout_margin="15dp"
+        android:background="#FFFFFF"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:lines="10"/>
+
+    <Button
+        android:id="@+id/bSaveMy"
+        android:text="Save file"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/bViewInternalMy"
+        android:text="View file"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

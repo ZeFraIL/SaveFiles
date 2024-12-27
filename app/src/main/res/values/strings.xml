@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">SaveFiles</string>
+    <string name="saveinternal">Save text file in internal storage \n(standart directory)</string>
+    <string name="saveinternalmy">Save text file in internal storage \n(my personal directory)</string>
+    <string name="saveexternal">Save text file in external storage \n(my personal directory)</string>
+    <string name="savesherpref">Save text file \nas shered preferences)</string>
+    <string name="dirname">Enter name for your directory</string>
+    <string name="filename">Enter name for your file</string>
+    <string name="emptyDir">Empty name of directory!</string>
+    <array name="dudu">
+        <item>kjfoir</item>
+    </array>
+</resources>
